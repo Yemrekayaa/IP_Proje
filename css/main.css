@@ -1,14 +1,57 @@
-body{
-    background-color: #ffd57b;
+body {
+  background-color: #ffd57b;
 }
 
-.logo{
-
-      
+.logo {
 }
-.logoimg{
+.logoimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+    
+  background-color: #920101;
+  margin: auto;
+  margin-bottom: 10px;
+  position: fixed;
+  right: 0px;
+  width: 100vw;
+  
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  padding: 14px 16px;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  border-bottom: white 1px solid;
+  padding: 12px 16px;
+}
+
+
+
+section{
+    padding-top: 100px;
+    width: 90%;
+    padding-left:5%;
 }
