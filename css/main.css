@@ -1,3 +1,14 @@
 body{
     background-color: #ffd57b;
 }
+
+.logo{
+
+      
+}
+.logoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
